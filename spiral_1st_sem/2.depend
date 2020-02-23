@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1569517502 source:c:\users\alex\desktop\vuz\prog\2\main.cpp
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+
+1569518845 source:c:\users\alex\desktop\vuz\prog\2\source.cpp
+	"header.h"
+
+1569518961 c:\users\alex\desktop\vuz\prog\2\header.h
+
+1569529583 source:c:\users\alex\desktop\vuz\prog\2 раскиданная\main.cpp
+	"header.h"
+
+1569528139 c:\users\alex\desktop\vuz\prog\2 раскиданная\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+
+1569528917 source:c:\users\alex\desktop\vuz\prog\2 раскиданная\source.cpp
+	"header.h"
+
+1569654648 source:c:\users\alex\desktop\vuz\prog\2\2 нормальная\main.cpp
+	"header.h"
+
+1569599452 c:\users\alex\desktop\vuz\prog\2\2 нормальная\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+
+1569654564 source:c:\users\alex\desktop\vuz\prog\2\2 нормальная\source.cpp
+	"header.h"
+
+1570006220 source:c:\users\alex\desktop\vuz\prog\2\2 нормальная 1.2\main.cpp
+	"header.h"
+
+1570006450 c:\users\alex\desktop\vuz\prog\2\2 нормальная 1.2\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+
+1570006220 source:c:\users\alex\desktop\vuz\prog\2\2 нормальная 1.2\source.cpp
+	"header.h"
+
+1570009230 source:c:\users\alex\desktop\vuz\prog\2\2  1.3\main.cpp
+	"header.h"
+
+1570015826 c:\users\alex\desktop\vuz\prog\2\2  1.3\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+
+1570009275 source:c:\users\alex\desktop\vuz\prog\2\2  1.3\source.cpp
+	"header.h"
+
+1570019688 source:c:\users\alex\desktop\vuz\prog\2\2  1.4\main.cpp
+	"header.h"
+
+1570020295 c:\users\alex\desktop\vuz\prog\2\2  1.4\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+
+1570020295 source:c:\users\alex\desktop\vuz\prog\2\2  1.4\source.cpp
+	"header.h"
+
+1570020505 source:c:\users\alex\desktop\vuz\prog\2\2__1.4\main.cpp
+	"header.h"
+
+1570020295 c:\users\alex\desktop\vuz\prog\2\2__1.4\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+
+1570020295 source:c:\users\alex\desktop\vuz\prog\2\2__1.4\source.cpp
+	"header.h"
+
+1570117464 source:c:\users\alex\desktop\vuz\prog\2\2__1.5 подготовка к новому интерфейсу\main.cpp
+	"header.h"
+
+1570117332 c:\users\alex\desktop\vuz\prog\2\2__1.5 подготовка к новому интерфейсу\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+
+1570117361 source:c:\users\alex\desktop\vuz\prog\2\2__1.5 подготовка к новому интерфейсу\source.cpp
+	"header.h"
+
+1570687954 source:c:\users\alex\desktop\vuz\prog\2\2__1.6 интерфейс менюшка\main.cpp
+	"header.h"
+	<unordered_set>
+	<set>
+	<utility>
+
+1570606428 c:\users\alex\desktop\vuz\prog\2\2__1.6 интерфейс менюшка\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+	<conio.h>
+
+1570687016 source:c:\users\alex\desktop\vuz\prog\2\2__1.6 интерфейс менюшка\source.cpp
+	"header.h"
+
+1570687954 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\spiral_1st_sem\main.cpp
+	"header.h"
+	<unordered_set>
+	<set>
+	<utility>
+
+1570606428 c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\spiral_1st_sem\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+	<conio.h>
+
+1570687016 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\spiral_1st_sem\source.cpp
+	"header.h"
+
