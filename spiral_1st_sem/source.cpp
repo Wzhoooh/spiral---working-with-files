@@ -11,16 +11,12 @@ InputData::InputData(string lenHorisontal, string lenVertical, int statement)
 bool InputData::isRight(string lenHorisontal, string lenVertical)
 {
     for (int i = 0; i < lenHorisontal.size(); i++)
-    {
         if (!(lenHorisontal[i] >= '0' && lenHorisontal[i] <= '9'))
             throw new Wrong_Value;
-    }
 
     for (int i = 0; i < lenVertical.size(); i++)
-    {
         if (!(lenVertical[i] >= '0' && lenVertical[i] <= '9'))
             throw new Wrong_Value;
-    }
 
     return true;
 }
@@ -38,7 +34,7 @@ void InputData::getValues(string lenHorisontal, string lenVertical, int statemen
 
     this->statement = statement;
 
-    if (this->lenHorisontal > 12 || this->lenVertical > 12 ||
+    if (this->lenHorisontal > 9 || this->lenVertical > 9 ||
         this->lenHorisontal <= 0 || this->lenVertical <= 0)
         throw new Wrong_Value;
 }
@@ -84,6 +80,14 @@ Spiral::Spiral(v_v_int inputSpiral)
     this->spiral = inputSpiral;
 }
 
+
+Spiral Spiral::operator = (Spiral&& source)
+{
+    lenHorisontal = source.lenHorisontal;
+    lenVertical = source.lenVertical;
+    spiral = std::move(source.spiral);
+}
+
 void Spiral::print() const
 {
     int maxLen = getLen(spiral[0].size() * spiral.size());
@@ -97,6 +101,11 @@ void Spiral::print() const
         }
         cout << endl;
     }
+}
+
+int Spiral::getMaxLen()
+{
+    return getLen(spiral[0].size() * spiral.size());
 }
 
 int getLen(int number)

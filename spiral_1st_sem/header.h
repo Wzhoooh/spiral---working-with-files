@@ -70,8 +70,11 @@ private:
 
 public:
     Spiral(int lenHorisontal, int lenVertical);
-    Spiral (v_v_int inputSpiral);
+    Spiral(v_v_int inputSpiral);
+    Spiral(const Spiral&) = default;
+    Spiral operator = (Spiral&&);
     void print() const;
+    int getMaxLen();
 
     int getNumberFromSpiral(int i, int j);
 
