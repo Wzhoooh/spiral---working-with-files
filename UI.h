@@ -7,6 +7,6 @@ void printMenu(int statement);
 int changeStatement(int statement, unsigned char biteFirst, unsigned char biteSecond);
 bool isRightButton(int biteFirst, int biteSecond);
 void loadToFile(Spiral& source);
-Spiral readFile();
+void readFile(Spiral&);
 char* numberToStr(int number);
 #endif // UI_H_INCLUDED

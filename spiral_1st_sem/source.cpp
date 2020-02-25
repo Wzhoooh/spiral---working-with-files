@@ -1,4 +1,5 @@
 #include "header.h"
+#include <iostream>
 
 InputData::InputData(string lenHorisontal, string lenVertical, int statement)
 {
@@ -81,11 +82,13 @@ Spiral::Spiral(v_v_int inputSpiral)
 }
 
 
-Spiral Spiral::operator = (Spiral&& source)
+Spiral& Spiral::operator = (Spiral&& source)
 {
+std::cout << "&&" << std::endl;
     lenHorisontal = source.lenHorisontal;
     lenVertical = source.lenVertical;
     spiral = std::move(source.spiral);
+    return *this;
 }
 
 void Spiral::print() const

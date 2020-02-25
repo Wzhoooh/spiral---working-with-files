@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1582630830 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\main.cpp
+1582632846 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\main.cpp
 	<iostream>
 	"spiral_1st_sem/header.h"
 	"UI.h"
 
-1582571603 c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\spiral_1st_sem\header.h
+1582631789 c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\spiral_1st_sem\header.h
 	<iostream>
 	<vector>
 	<sstream>
@@ -13,12 +13,13 @@
 	<windows.h>
 	<conio.h>
 
-1582571638 c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\ui.h
+1582632196 c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\ui.h
 
-1582571603 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\spiral_1st_sem\source.cpp
+1582631789 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\spiral_1st_sem\source.cpp
 	"header.h"
+	<iostream>
 
-1582629777 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\ui.cpp
+1582633159 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral - working with files\ui.cpp
 	"UI.h"
 	"spiral_1st_sem/header.h"
 	<iostream>

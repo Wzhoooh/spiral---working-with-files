@@ -72,7 +72,7 @@ public:
     Spiral(int lenHorisontal, int lenVertical);
     Spiral(v_v_int inputSpiral);
     Spiral(const Spiral&) = default;
-    Spiral operator = (Spiral&&);
+    Spiral& operator = (Spiral&&);
     void print() const;
     int getMaxLen();
 

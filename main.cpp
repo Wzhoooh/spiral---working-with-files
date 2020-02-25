@@ -87,8 +87,10 @@ int main()
 
             if (statement == 5)
             {
-                spiral = readFile();
-                //spiral = std::move(readFile());
+                readFile(spiral);
+                lenHorisontal = spiral.getLenHorisontal();
+                lenVertical = spiral.getLenVertical();
+                system("cls");
                 cout << "LENGTH OF GORISONTAL: " << lenHorisontal << endl;
                 cout << "LENGTH OF VERTICAL: " << lenVertical << endl;
                 cout << "-------------------" << endl << endl;
@@ -97,6 +99,7 @@ int main()
             if (statement == 6)
             {
                 loadToFile(spiral);
+                system("cls");
                 cout << "LENGTH OF GORISONTAL: " << lenHorisontal << endl;
                 cout << "LENGTH OF VERTICAL: " << lenVertical << endl;
                 cout << "-------------------" << endl << endl;

@@ -117,6 +117,8 @@ void loadToFile(Spiral& source)
     {
         printf("Enter name to file: ");
         scanf("%s", nameOfFile+5);
+        if (nameOfFile[5] == '0' && nameOfFile[5] == 0)
+            return;
 
         f = fopen(nameOfFile, "wt");
         if (f == NULL)
@@ -164,10 +166,9 @@ void loadToFile(Spiral& source)
         }
     }
     fclose(f);
-    system("cls");
 }
 
-Spiral readFile()
+void readFile(Spiral& sp)
 {
     system("cls");
     char nameOfFile[100] = { 'd', 'a', 't', 'a', '\\' };
@@ -177,6 +178,8 @@ Spiral readFile()
     {
         printf("Enter name to file: ");
         scanf("%s", nameOfFile+5);
+        if (nameOfFile[5] == '0' && nameOfFile[5] == 0)
+            return;
 
         f = fopen(nameOfFile, "rt");
         if (f == NULL)
@@ -190,10 +193,11 @@ Spiral readFile()
         else
         {
             char buffer[2]= {};
-            std::cout << "fread: " << fread(buffer, 1, 2, f) << std::endl;
+            fread(buffer, 1, 2, f);
             Spiral newSpiral(buffer[0], buffer[1]);
+            sp = std::move(newSpiral);
             fclose(f);
-            return newSpiral;
+            return;
         }
     }
 }
