@@ -1,25 +1,3 @@
-//#include <iostream>
-////#include "spiral_1st_sem/header.h"
-////#include "UI.h"
-//
-//int main()
-//{
-//    FILE* a = fopen("source_bmp_head.bmp", "rb");
-//    std::cout << (a == nullptr);
-//    char content[2000000+55] = {};
-//    fread(content, 1, 55, a);
-//
-//    a = fopen("2.bmp", "wb");
-//    //fwrite(arr, sizeof(char), sizeof(arr)/sizeof(char), a);
-//
-//    for (int i = 0; i < 2000000; i++)
-//        content[i+55] = i;
-//
-//    fwrite(content, sizeof(char), sizeof(content)/sizeof(char), a);
-//    fclose(a);
-//}
-
-
 #include <iostream>
 #include "spiral_1st_sem/header.h"
 #include "UI.h"
@@ -88,8 +66,6 @@ int main()
             if (statement == 5)
             {
                 readFile(spiral);
-std::cout << "spiral: " << spiral.getLenHorisontal() << " " << spiral.getLenVertical() << std::endl;
-Sleep(1500);
                 lenHorisontal = spiral.getLenHorisontal() + '0';
                 lenVertical = spiral.getLenVertical() + '0';
                 system("cls");
@@ -139,12 +115,3 @@ Sleep(1500);
         cout << endl << endl;
     }
 }
-
-//#include <iostream>
-//#include "spiral_1st_sem/header.h"
-//#include "UI.h"
-//
-//int main()
-//{
-//    std::cout << numberToStr(4703430);
-//}

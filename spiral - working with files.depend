@@ -55,3 +55,26 @@
 	"header.h"
 	<iostream>
 
+1582735387 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral---working-with-files\spiral_1st_sem\source.cpp
+	"header.h"
+	<iostream>
+
+1582735387 c:\users\alex\desktop\vuz\prog\2й семестр\spiral---working-with-files\spiral_1st_sem\header.h
+	<iostream>
+	<vector>
+	<sstream>
+	<string>
+	<exception>
+	<windows.h>
+	<conio.h>
+
+1582736598 source:c:\users\alex\desktop\vuz\prog\2й семестр\spiral---working-with-files\ui.cpp
+	"UI.h"
+	"spiral_1st_sem/header.h"
+	<iostream>
+	<cstdio>
+	<set>
+	<utility>
+
+1582735386 c:\users\alex\desktop\vuz\prog\2й семестр\spiral---working-with-files\ui.h
+
