@@ -88,8 +88,10 @@ int main()
             if (statement == 5)
             {
                 readFile(spiral);
-                lenHorisontal = spiral.getLenHorisontal();
-                lenVertical = spiral.getLenVertical();
+std::cout << "spiral: " << spiral.getLenHorisontal() << " " << spiral.getLenVertical() << std::endl;
+Sleep(1500);
+                lenHorisontal = spiral.getLenHorisontal() + '0';
+                lenVertical = spiral.getLenVertical() + '0';
                 system("cls");
                 cout << "LENGTH OF GORISONTAL: " << lenHorisontal << endl;
                 cout << "LENGTH OF VERTICAL: " << lenVertical << endl;

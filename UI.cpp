@@ -117,16 +117,15 @@ void loadToFile(Spiral& source)
     {
         printf("Enter name to file: ");
         scanf("%s", nameOfFile+5);
-        if (nameOfFile[5] == '0' && nameOfFile[5] == 0)
-            return;
 
         f = fopen(nameOfFile, "wt");
         if (f == NULL)
         {
             system("cls");
             printf("INVALID NAME");
-            Sleep(500);
+            Sleep(1000);
             system("cls");
+            return;
             continue;
         }
         else
@@ -178,23 +177,22 @@ void readFile(Spiral& sp)
     {
         printf("Enter name to file: ");
         scanf("%s", nameOfFile+5);
-        if (nameOfFile[5] == '0' && nameOfFile[5] == 0)
-            return;
 
         f = fopen(nameOfFile, "rt");
         if (f == NULL)
         {
             system("cls");
             printf("INVALID NAME");
-            Sleep(500);
+            Sleep(1000);
             system("cls");
+            return;
             continue;
         }
         else
         {
             char buffer[2]= {};
             fread(buffer, 1, 2, f);
-            Spiral newSpiral(buffer[0], buffer[1]);
+            Spiral newSpiral(buffer[0] - '0', buffer[1] - '0');
             sp = std::move(newSpiral);
             fclose(f);
             return;
